@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body{
+            background-image: linear-gradient(gray, whitesmoke,whitesmoke);
+            min-height: 1000px;
+        }
+
+        nav{
+            min-height: 50px;
+            margin: auto;
+            margin-bottom: 100px;
+            text-decoration: none;
+
+            background-color: black;
+            color:beige;
+            font-family: "JetBrains Mono ExtraBold";
+            padding: 12px;
+        }
+
+        li{
+
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+           list-style: none;
+
+        }
+        nav>div{
+            float: right;
+            margin-right: 50px;
+            font-family: "JetBrains Mono ExtraBold";
+            font-weight: bold;
+
+        }
+
+        #main{
+
+            min-height: 50px;
+            min-width: 500px;
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 70px;;
+
+
+        }
+        #main > h1{
+            margin-left: 33%;
+        }
+
+
+        #main2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .option{
+            border: 1px solid black;
+            padding: 10px 50px 10px 50px;
+
+            border-radius: 25px;
+            background-color: transparent;
+        }
+
+        span{
+            font-size: x-large;
+        }
+
+        .option:hover{
+            color:white;
+            background-color:midnightblue;
+            transition: 200ms;
+        }
+.wer{
+    border: 1px solid red;
+}
+
+    </style>
+
+
+</head>
+<body>
+<nav>
+    <ul>
+        <li>  <a th:href="@{/}">Home</a></li>
+        <li>  <a th:href="@{/login}"> Login</a></li>
+        <li>  <a th:href="@{/register}">Sign-up</a></li>
+        <li href="#">About</li>
+    </ul>
+
+    <div>سامانه جستجو بازیگر و فیلم</div>
+</nav>
+
+
+<!--<p class="wer">Click <a th:href="@{/hello}">here</a> to see a greeting.</p>-->
+<div id="main">
+
+    <h1>Welcome!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci facere, incidunt libero nemo odio quae quisquam reprehenderit sit, sunt suscipit unde velit! Ad, consectetur ipsum labore libero reiciendis sequi!</p>
+</div>
+
+<div id="main2">
+
+    <div class="option"   id="selection1"><span><a th:href="@{/actor}">بازیگر</a></span></div>
+<!--    <div class="option"  id="selection2"><span><a href="#">فیلم</a></span></div>-->
+
+</div>
+
+
+</body>
+</html>

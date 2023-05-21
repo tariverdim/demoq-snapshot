@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li>  <a th:href="@{/}">Home</a></li>
+        <li>  <a th:href="@{/login}"> Login</a></li>
+        <li>  <a th:href="@{/register}">Sign-up</a></li>
+        <li href="#">About</li>
+    </ul>
+
+
+    <div sec:authentication="name"></div>
+</nav>
+
+<p style="width: 50%; margin: auto; margin-bottom: 10px; direction: rtl; color: green;">
+    برای مشاهده لیست کامل بدون مقدار دهی جسنجو را کلیک کنید.</p>
+
+<p style="width: 50%; margin: auto; margin-bottom: 10px; direction: ltr; color: darkslategray;">
+    Example: First Name: GRACE | CHRISTIAN | ED | SANDRA
+</p>
+
+
+<form th:action="@{/actor}" method="post" th:object="${FQ}">
+    <div class="container">
+        <h1 style="direction: rtl">جستجوی بازیگر</h1>
+        <div th:if="${param.error}">
+            <span style="color: red">Invalid username and password.</span>
+        </div>
+        <div th:if="${param.logout}">
+            <span style="color: green"> You have been logged out.</span>
+        </div>
+        <hr>
+
+        <label for="firstname"><b>firstname</b></label>
+        <input type="text" th:field="*{firstName}"  placeholder="Enter First name" name="firstname" id="firstname" >
+
+
+
+        <label for="lastname"><b>lastname</b></label>
+        <input type="text" th:field="*{lastName}" placeholder="Enter lastname" name="lastname" id="lastname" >
+
+        <hr>
+
+        <button type="submit" class="registerbtn">Search</button>
+    </div>
+
+    <div class="container signin" style="direction: rtl;">
+        <p>برای اضافه کردن ریکورد جدید <a th:href="@{/add}">add</a>.</p>
+    </div>
+</form>
+
+
+</body>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+        padding: 16px;
+        background-color: white;
+        width: 50%;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 5px;;
+    }
+
+    /* Full-width input fields */
+    input[type=text], input[type=text] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+        border-radius: 8px;
+    }
+
+    input[type=text]:focus, input[type=text]:focus {
+        background-color: #ddd;
+        outline: none;
+
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+        background-color: gray;
+        color: #000000;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+        font-size: large;
+        border-radius: 10px;
+    }
+
+    .registerbtn:hover {
+        opacity: 1;
+        color: white;
+        background-color: darkblue;
+        transition: 200ms;
+    }
+
+    /* Add a blue text color to links */
+    a {
+        color: blue;
+    }
+
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+
+    }
+    nav{
+        min-height: 50px;
+        margin: auto;
+        margin-bottom: 100px;
+        text-decoration: none;
+
+        background-color: black;
+        color:beige;
+        font-family: "JetBrains Mono ExtraBold";
+        padding: 1px;
+    }
+
+    li{
+
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        list-style: none;
+
+    }
+    nav>div{
+        float: right;
+        margin-right: 50px;
+        font-family: "JetBrains Mono ExtraBold";
+        font-weight: bold;
+
+    }
+
+    li>a{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+</html>

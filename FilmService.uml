@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SPRING</ID>
+  <OriginalElement>mappedClass=com.example.demoq.UserDetailsService.FilmService</OriginalElement>
+  <nodes>
+    <node x="20.0" y="384.0">module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication</node>
+    <node x="324.5" y="448.0">module=demoq;bean_class=com.example.demoq.controller.Main;bean_name=main</node>
+    <node x="293.5" y="0.0">module=demoq;bean_class=com.example.demoq.controller.addController;bean_name=addController</node>
+    <node x="300.5" y="576.0">module=demoq;bean_class=com.example.demoq.controller.actorSearch;bean_name=actorSearch</node>
+    <node x="266.5" y="768.0">module=demoq;bean_class=com.example.demoq.controller.RegistrationController;bean_name=registrationController</node>
+    <node x="289.5" y="64.0">module=demoq;bean_class=com.example.demoq.repository.UserRepository;bean_name=userRepository</node>
+    <node x="271.0" y="256.0">module=demoq;bean_class=com.example.demoq.repository.FilmEntityRepository;bean_name=filmEntityRepository</node>
+    <node x="252.0" y="320.0">module=demoq;bean_class=com.example.demoq.repository.FilmActorEntityRepository;bean_name=filmActorEntityRepository</node>
+    <node x="266.5" y="192.0">module=demoq;bean_class=com.example.demoq.repository.ActorEntityRepository;bean_name=actorEntityRepository</node>
+    <node x="267.5" y="384.0">module=demoq;bean_class=com.example.demoq.UserDetailsService.JpaUserDetailsService;bean_name=jpaUserDetailsService</node>
+    <node x="303.5" y="640.0">module=demoq;bean_class=com.example.demoq.UserDetailsService.FilmService;bean_name=filmService</node>
+    <node x="279.5" y="704.0">module=demoq;bean_class=com.example.demoq.UserDetailsService.ActorEntityService;bean_name=actorEntityService</node>
+    <node x="261.0" y="128.0">module=demoq;bean_class=com.example.demoq.UserDetailsService.UserRegistrationService;bean_name=userRegistrationService</node>
+    <node x="292.5" y="512.0">module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig</node>
+    <node x="550.0" y="269.0487804878049">module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration</node>
+    <node x="1103.5" y="257.0">module=demoq;bean_class=org.springframework.security.context.DelegatingApplicationListener;bean_name=delegatingApplicationListener</node>
+    <node x="1101.0" y="129.0">module=demoq;bean_class=org.springframework.security.access.expression.SecurityExpressionHandler;bean_name=webSecurityExpressionHandler</node>
+    <node x="1121.0" y="65.0">module=demoq;bean_class=jakarta.servlet.Filter;bean_name=springSecurityFilterChain</node>
+    <node x="1144.5" y="321.0">module=demoq;bean_class=org.springframework.security.web.access.WebInvocationPrivilegeEvaluator;bean_name=privilegeEvaluator</node>
+    <node x="1095.5" y="193.0">module=demoq;bean_class=org.springframework.beans.factory.config.BeanFactoryPostProcessor;bean_name=conversionServicePostProcessor</node>
+    <node x="1134.5" y="449.0">module=demoq;bean_class=org.springframework.security.config.annotation.ObjectPostProcessor;bean_name=objectPostProcessor</node>
+    <node x="845.0" y="385.0">module=demoq;bean_class=org.springframework.security.config.annotation.web.builders.HttpSecurity;bean_name=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity</node>
+    <node x="536.0" y="448.0">module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.SpringWebMvcImportSelector;bean_name=springWebMvcImportSelector</node>
+    <node x="560.5" y="384.0">module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.OAuth2ImportSelector;bean_name=OAuth2ImportSelector</node>
+    <node x="549.5" y="540.6463414634147">module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration;bean_name=httpSecurityConfiguration</node>
+    <node x="1110.0" y="576.0">module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration</node>
+    <node x="1125.5" y="640.0">module=demoq;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
+    <node x="574.5" y="604.6463414634147">module=demoq;bean_class=org.springframework.security.web.SecurityFilterChain;bean_name=securityFilterChain</node>
+    <node x="577.0" y="668.6463414634147">module=demoq;bean_class=org.springframework.security.crypto.password.PasswordEncoder;bean_name=passwordEncoder</node>
+    <node x="1744.0" y="454.0">module=demoq;bean_class=org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration;bean_name=objectPostProcessorConfiguration</node>
+    <node x="1759.0" y="518.0">module=demoq;bean_class=org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;bean_name=authenticationManagerBuilder</node>
+    <node x="1695.5" y="582.0">module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.GlobalAuthenticationConfigurerAdapter;bean_name=enableGlobalAuthenticationAutowiredConfigurer</node>
+    <node x="1712.0" y="646.0">module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer;bean_name=initializeUserDetailsBeanManagerConfigurer</node>
+    <node x="1672.0" y="710.0">module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer;bean_name=initializeAuthenticationProviderBeanManagerConfigurer</node>
+    <node x="1433.0" y="837.0">module=demoq;bean_class=jakarta.servlet.ServletConfig;bean_name=servletConfig</node>
+    <node x="265.0" y="837.0">module=demoq;bean_class=jakarta.servlet.http.HttpServletResponse;bean_name=httpServletResponse</node>
+    <node x="679.0" y="837.0">module=demoq;bean_class=jakarta.servlet.ServletRequest;bean_name=httpServletRequest</node>
+    <node x="0.0" y="837.0">module=demoq;bean_class=org.springframework.boot.ApplicationArguments;bean_name=springApplicationArguments</node>
+    <node x="1073.0" y="837.0">module=demoq;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
+    <node x="1262.0" y="837.0">module=demoq;bean_class=jakarta.servlet.ServletContext;bean_name=servletContext</node>
+    <node x="1901.0" y="837.0">module=demoq;bean_class=org.springframework.data.jpa.repository.JpaContext;bean_name=jpaContext</node>
+    <node x="1594.0" y="837.0">module=demoq;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
+    <node x="477.0" y="837.0">module=demoq;bean_class=jakarta.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
+    <node x="881.0" y="837.0">module=demoq;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
+    <node x="1750.0" y="837.0">module=demoq;bean_class=jakarta.servlet.http.HttpSession;bean_name=httpSession</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration;bean_name=httpSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" relationship="@Autowired">
+      <point x="101.0" y="6.0" />
+      <point x="795.0" y="558.6463414634147" />
+      <point x="795.0" y="607.1585365853659" />
+      <point x="815.0" y="607.1585365853659" />
+      <point x="815.0" y="588.0" />
+      <point x="-108.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" target="module=demoq;bean_class=org.springframework.security.web.SecurityFilterChain;bean_name=securityFilterChain" relationship="@Bean">
+      <point x="61.5" y="6.0" />
+      <point x="491.0" y="530.0" />
+      <point x="491.0" y="668.0487804878048" />
+      <point x="501.0" y="668.0487804878048" />
+      <point x="501.0" y="616.6463414634147" />
+      <point x="-76.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" relationship="">
+      <point x="-76.0" y="-0.0" />
+      <point x="0.0" y="396.0" />
+      <point x="0.0" y="428.0" />
+      <point x="96.0" y="428.0" />
+      <point x="0.0" y="12.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration;bean_name=httpSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.web.builders.HttpSecurity;bean_name=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity" relationship="@Bean">
+      <point x="101.0" y="-6.0" />
+      <point x="795.0" y="546.6463414634147" />
+      <point x="795.0" y="403.0" />
+      <point x="-373.5" y="6.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=org.springframework.beans.factory.config.BeanFactoryPostProcessor;bean_name=conversionServicePostProcessor" relationship="@Bean">
+      <point x="100.5" y="-6.0" />
+      <point x="795.0" y="275.0487804878049" />
+      <point x="795.0" y="206.20731707317077" />
+      <point x="805.0" y="206.20731707317077" />
+      <point x="805.0" y="205.0" />
+      <point x="-123.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.web.builders.HttpSecurity;bean_name=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity" relationship="@Autowired">
+      <point x="100.5" y="6.0" />
+      <point x="795.0" y="287.0487804878049" />
+      <point x="795.0" y="392.0" />
+      <point x="-373.5" y="-6.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.controller.addController;bean_name=addController" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="12.0" />
+      <point x="-60.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.repository.ActorEntityRepository;bean_name=actorEntityRepository" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="204.0" />
+      <point x="-87.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.repository.FilmActorEntityRepository;bean_name=filmActorEntityRepository" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="332.0" />
+      <point x="-102.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=jakarta.servlet.Filter;bean_name=springSecurityFilterChain" relationship="@Bean">
+      <point x="100.5" y="-6.0" />
+      <point x="795.0" y="275.0487804878049" />
+      <point x="795.0" y="206.20731707317077" />
+      <point x="805.0" y="206.20731707317077" />
+      <point x="805.0" y="77.0" />
+      <point x="-97.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" target="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration;bean_name=httpSecurityConfiguration" relationship="@Import">
+      <point x="61.5" y="-6.0" />
+      <point x="491.0" y="518.0" />
+      <point x="491.0" y="428.0" />
+      <point x="501.0" y="428.0" />
+      <point x="501.0" y="552.6463414634147" />
+      <point x="-101.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" target="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" relationship="@Import">
+      <point x="61.5" y="-6.0" />
+      <point x="491.0" y="518.0" />
+      <point x="491.0" y="428.0" />
+      <point x="501.0" y="428.0" />
+      <point x="501.0" y="281.0487804878049" />
+      <point x="-100.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.ObjectPostProcessor;bean_name=objectPostProcessor" relationship="@Autowired">
+      <point x="100.5" y="6.0" />
+      <point x="795.0" y="287.0487804878049" />
+      <point x="795.0" y="392.0" />
+      <point x="815.0" y="392.0" />
+      <point x="815.0" y="461.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration;bean_name=httpSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.ObjectPostProcessor;bean_name=objectPostProcessor" relationship="@Autowired">
+      <point x="101.0" y="6.0" />
+      <point x="795.0" y="558.6463414634147" />
+      <point x="795.0" y="607.1585365853659" />
+      <point x="805.0" y="607.1585365853659" />
+      <point x="805.0" y="461.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;bean_name=authenticationManagerBuilder" relationship="@Bean">
+      <point x="108.5" y="6.0" />
+      <point x="1627.0" y="594.0" />
+      <point x="1627.0" y="626.0" />
+      <point x="1637.0" y="626.0" />
+      <point x="1637.0" y="530.0" />
+      <point x="-115.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.web.access.WebInvocationPrivilegeEvaluator;bean_name=privilegeEvaluator" relationship="@Bean">
+      <point x="100.5" y="-6.0" />
+      <point x="795.0" y="275.0487804878049" />
+      <point x="795.0" y="206.20731707317077" />
+      <point x="805.0" y="206.20731707317077" />
+      <point x="805.0" y="333.0" />
+      <point x="-74.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.repository.FilmEntityRepository;bean_name=filmEntityRepository" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="268.0" />
+      <point x="-83.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.access.expression.SecurityExpressionHandler;bean_name=webSecurityExpressionHandler" relationship="@Bean">
+      <point x="100.5" y="-6.0" />
+      <point x="795.0" y="275.0487804878049" />
+      <point x="795.0" y="206.20731707317077" />
+      <point x="805.0" y="206.20731707317077" />
+      <point x="805.0" y="141.0" />
+      <point x="-117.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext" relationship="@Autowired">
+      <point x="0.0" y="12.0" />
+      <point x="0.0" y="-12.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer;bean_name=initializeUserDetailsBeanManagerConfigurer" relationship="@Bean">
+      <point x="108.5" y="6.0" />
+      <point x="1627.0" y="594.0" />
+      <point x="1627.0" y="626.0" />
+      <point x="1637.0" y="626.0" />
+      <point x="1637.0" y="658.0" />
+      <point x="-162.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.UserDetailsService.ActorEntityService;bean_name=actorEntityService" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="716.0" />
+      <point x="-74.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" target="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.SpringWebMvcImportSelector;bean_name=springWebMvcImportSelector" relationship="@Import">
+      <point x="61.5" y="-6.0" />
+      <point x="491.0" y="518.0" />
+      <point x="491.0" y="428.0" />
+      <point x="501.0" y="428.0" />
+      <point x="501.0" y="460.0" />
+      <point x="-114.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration;bean_name=objectPostProcessorConfiguration" relationship="@Import">
+      <point x="108.5" y="-6.0" />
+      <point x="1627.0" y="582.0" />
+      <point x="1627.0" y="472.0" />
+      <point x="-130.5" y="6.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.repository.UserRepository;bean_name=userRepository" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="76.0" />
+      <point x="-64.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.UserDetailsService.UserRegistrationService;bean_name=userRegistrationService" target="module=demoq;bean_class=com.example.demoq.repository.UserRepository;bean_name=userRepository" relationship="@Autowired">
+      <point x="0.0" y="-12.0" />
+      <point x="0.0" y="12.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.ObjectPostProcessor;bean_name=objectPostProcessor" relationship="@Autowired">
+      <point x="0.0" y="-12.0" />
+      <point x="0.0" y="12.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.UserDetailsService.JpaUserDetailsService;bean_name=jpaUserDetailsService" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="-86.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration;bean_name=objectPostProcessorConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.ObjectPostProcessor;bean_name=objectPostProcessor" relationship="@Bean">
+      <point x="-130.5" y="-6.0" />
+      <point x="84.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.controller.actorSearch;bean_name=actorSearch" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="588.0" />
+      <point x="-53.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" target="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.OAuth2ImportSelector;bean_name=OAuth2ImportSelector" relationship="@Import">
+      <point x="61.5" y="-6.0" />
+      <point x="491.0" y="518.0" />
+      <point x="491.0" y="428.0" />
+      <point x="501.0" y="428.0" />
+      <point x="501.0" y="396.0" />
+      <point x="-90.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.GlobalAuthenticationConfigurerAdapter;bean_name=enableGlobalAuthenticationAutowiredConfigurer" relationship="@Bean">
+      <point x="108.5" y="6.0" />
+      <point x="1627.0" y="594.0" />
+      <point x="1627.0" y="626.0" />
+      <point x="1637.0" y="626.0" />
+      <point x="1637.0" y="594.0" />
+      <point x="-179.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.UserDetailsService.UserRegistrationService;bean_name=userRegistrationService" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="140.0" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.controller.Main;bean_name=main" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="460.0" />
+      <point x="-29.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" target="module=demoq;bean_class=org.springframework.security.crypto.password.PasswordEncoder;bean_name=passwordEncoder" relationship="@Bean">
+      <point x="61.5" y="6.0" />
+      <point x="491.0" y="530.0" />
+      <point x="491.0" y="668.0487804878048" />
+      <point x="501.0" y="668.0487804878048" />
+      <point x="501.0" y="680.6463414634147" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.UserDetailsService.FilmService;bean_name=filmService" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="652.0" />
+      <point x="-50.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.config.SecurityConfig;bean_name=securityConfig" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="524.0" />
+      <point x="-61.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration;bean_name=httpSecurityConfiguration" target="module=demoq;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext" relationship="@Autowired">
+      <point x="101.0" y="6.0" />
+      <point x="795.0" y="558.6463414634147" />
+      <point x="795.0" y="607.1585365853659" />
+      <point x="815.0" y="607.1585365853659" />
+      <point x="815.0" y="652.0" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;bean_name=webSecurityConfiguration" target="module=demoq;bean_class=org.springframework.security.context.DelegatingApplicationListener;bean_name=delegatingApplicationListener" relationship="@Bean">
+      <point x="100.5" y="-6.0" />
+      <point x="795.0" y="275.0487804878049" />
+      <point x="795.0" y="206.20731707317077" />
+      <point x="805.0" y="206.20731707317077" />
+      <point x="805.0" y="269.0" />
+      <point x="-115.0" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=com.example.demoq.DemoqApplication;bean_name=demoqApplication" target="module=demoq;bean_class=com.example.demoq.controller.RegistrationController;bean_name=registrationController" relationship="">
+      <point x="76.0" y="-0.0" />
+      <point x="212.0" y="396.0" />
+      <point x="212.0" y="780.0" />
+      <point x="-87.5" y="-0.0" />
+    </edge>
+    <edge source="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;bean_name=authenticationConfiguration" target="module=demoq;bean_class=org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer;bean_name=initializeAuthenticationProviderBeanManagerConfigurer" relationship="@Bean">
+      <point x="108.5" y="6.0" />
+      <point x="1627.0" y="594.0" />
+      <point x="1627.0" y="626.0" />
+      <point x="1637.0" y="626.0" />
+      <point x="1637.0" y="722.0" />
+      <point x="-202.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3214115402956605" showDependencies="false" x="1038.5" y="430.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Local context</Category>
+    <Category>Properties</Category>
+    <Category>Show Borders</Category>
+  </Categories>
+</Diagram>
+

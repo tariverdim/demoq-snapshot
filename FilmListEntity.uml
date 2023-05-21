@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.demoq.model.data.FilmListEntity</OriginalElement>
+  <nodes>
+    <node x="333.0" y="48.0">jakarta.persistence.Entity</node>
+    <node x="164.5" y="204.0">com.example.demoq.model.data.FilmListEntity</node>
+    <node x="0.0" y="0.0">jakarta.persistence.Table</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.demoq.model.data.FilmListEntity" target="jakarta.persistence.Entity" relationship="ANNOTATION">
+      <point x="0.0" y="-329.5" />
+      <point x="279.5" y="179.0" />
+      <point x="402.5" y="179.0" />
+      <point x="0.0" y="29.0" />
+    </edge>
+    <edge source="com.example.demoq.model.data.FilmListEntity" target="jakarta.persistence.Table" relationship="ANNOTATION">
+      <point x="0.0" y="-329.5" />
+      <point x="279.5" y="179.0" />
+      <point x="156.5" y="179.0" />
+      <point x="0.0" y="77.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="236.0" y="431.5" />
+  <SelectedNodes>
+    <node>com.example.demoq.model.data.FilmListEntity</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
